@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'dart:async';
-
 import 'package:zeking_flash_lamp/zeking_flash_lamp.dart';
 
 void main() => runApp(new MyApp());
