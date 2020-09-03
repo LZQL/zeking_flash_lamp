@@ -1,6 +1,7 @@
 name: zeking_flash_lamp
 description: Flutter 闪光灯
 version: 0.0.1
+author: ZekingLee<396298154@qq.com>
 homepage: https://github.com/LZQL/zeking_flash_lamp
 
 environment:
