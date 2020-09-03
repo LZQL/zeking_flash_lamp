@@ -64,11 +64,9 @@ public class ZekingFlashLampPlugin implements FlutterPlugin, MethodCallHandler {
 
     if (call.method.equals("turnOn")) {
       this.turn(true);
-//      FlashlightManager.turnLightOn(_camera);
       result.success(null);
     } else if(call.method.equals("turnOff")){
       this.turn(false);
-//      FlashlightManager.turnLightOff(_camera);
       result.success(null);
     } else if(call.method.equals("hasLamp")){
       result.success(this.hasLamp());
@@ -85,7 +83,6 @@ public class ZekingFlashLampPlugin implements FlutterPlugin, MethodCallHandler {
   // =====================================================================================
 
   private static Camera _camera;
-//  private static Registrar _registrar;
   private static Context mContext;
 
 
@@ -140,7 +137,6 @@ public class ZekingFlashLampPlugin implements FlutterPlugin, MethodCallHandler {
 
   private boolean hasLamp() {
     return mContext.getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA_FLASH);
-//    return _registrar.context().getApplicationContext().getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA_FLASH);
   }
 
 
