@@ -35,7 +35,7 @@ class _MyAppState extends State<MyApp> {
     return new MaterialApp(
       theme: new ThemeData(primarySwatch: Colors.pink),
       home: new Scaffold(
-        appBar: new AppBar(title: new Text('Lamp plugin example')),
+        appBar: new AppBar(title: new Text('zeking_flash_lamp_example')),
         body: new Center(
           child: new Column(
               mainAxisAlignment: MainAxisAlignment.center,
